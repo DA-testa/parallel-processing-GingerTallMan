@@ -9,7 +9,7 @@ def parallel_processing(n, m, data):
         time.append(0)
     count = 0
     timer = 0
-        for i in range (m):
+    for i in range (m):
         output.append (threads[count])
         output.append (time[count])
         while(True):
