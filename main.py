@@ -21,7 +21,7 @@ def parallel_processing(n, m, data):
         count+=1
         if count == len(threads):
             count = 0
-            time+=1
+            timer+=1
 
     return output
 
